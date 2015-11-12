@@ -1,0 +1,46 @@
+/* CSS declarations go here */
+#wrapper {
+  margin-right: 200px;
+}
+#fieldMap {
+  float: left;
+  width: 100%;
+  text-align: center;
+  position:relative;
+  background-color: #CCF;
+  /*border-style: solid;
+  border-color: black;
+  margin: 10px;*/
+}
+#playerList {
+  float: right;
+  width: 200px;
+  margin-right: -200px;
+  background-color: #FFA;
+}
+#cleared {
+  clear: both;
+}
+
+.circleBase {
+    border-radius: 50%;
+    /*float: left; */
+    /*margin-right: 50px;*/
+    /*display: inline; */
+    /*float: left;*/
+  position:relative;
+  margin:10px auto;
+  display:inline-block;
+}
+
+.type1 {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 3px solid red;
+}
+
+.player {
+  text-align: center;
+  border: 1px solid red;
+}

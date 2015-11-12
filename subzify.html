@@ -1,0 +1,28 @@
+<head>
+  <title>subzify</title>
+</head>
+
+<body>
+
+  <h1>Subzify - Making Substitutions a Snap</h1>
+  <div id="wrapper">
+    <div id="fieldMap">Field View
+      <hr>
+      <div class="circleBase type1">LW</div>
+      <div class="circleBase type1">CF</div>
+      <div class="circleBase type1">RW</div>
+    </div>
+    <div id="playerList">Players
+      <hr>
+      <div class="player" draggable="true">Julia</div>
+      <div class="player" draggable="true">Isabel</div>
+    </div>
+    <div id="cleared"></div>
+  </div>
+  {{> hello}}
+</body>
+
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
